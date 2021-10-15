@@ -1,0 +1,12 @@
+
+ERRORE
+
+terminate called after throwing an instance of 'Ort::Exception'
+  what():  not enough space: expected 4435968, got 2076672
+Aborted (core dumped)
+
+SOLUZIONE
+
+dovuto al fatto che il modello onnx è stato convertito con un valore di tensore minore rispetto ai dati di input
+
+
